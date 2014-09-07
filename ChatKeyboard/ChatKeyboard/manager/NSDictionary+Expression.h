@@ -1,5 +1,5 @@
 //
-//  ExpressionSourceManager.h
+//  NSDictionary+Expression.h
 //  ChatKeyboard
 //
 //  Created by 周彬 on 14-9-7.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ExpressionSourceManager : NSObject
+@interface NSDictionary (Expression)
+
++ (NSDictionary *)expressionDic;
 
 @end
