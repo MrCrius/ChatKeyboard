@@ -109,8 +109,11 @@
 		2B957DFE19BBFBFC00E82597 /* SenderVoiceNodePlaying_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B957DE419BBFBFC00E82597 /* SenderVoiceNodePlaying_ios7@2x.png */; };
 		2B957E0419BBFE9C00E82597 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B957E0319BBFE9C00E82597 /* expression.plist */; };
 		2B957E0719BC2AA900E82597 /* NSDictionary+Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B957E0619BC2AA900E82597 /* NSDictionary+Expression.m */; };
-		2BEDE3F919BC62C500768A78 /* ExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE3F819BC62C500768A78 /* ExpressionView.m */; };
 		2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE3FB19BC62FF00768A78 /* ChatDisplayViewController.m */; };
+		2BEDE40C19BC658C00768A78 /* ExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE40519BC658C00768A78 /* ExpressionView.m */; };
+		2BEDE40D19BC658C00768A78 /* InputToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE40819BC658C00768A78 /* InputToolView.m */; };
+		2BEDE40E19BC658C00768A78 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE40B19BC658C00768A78 /* ShareView.m */; };
+		2BEDE41119BC65D300768A78 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE41019BC65D300768A78 /* ChatModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,10 +234,16 @@
 		2B957E0319BBFE9C00E82597 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
 		2B957E0519BC2AA900E82597 /* NSDictionary+Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Expression.h"; sourceTree = "<group>"; };
 		2B957E0619BC2AA900E82597 /* NSDictionary+Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Expression.m"; sourceTree = "<group>"; };
-		2BEDE3F719BC62C500768A78 /* ExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionView.h; sourceTree = "<group>"; };
-		2BEDE3F819BC62C500768A78 /* ExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionView.m; sourceTree = "<group>"; };
 		2BEDE3FA19BC62FF00768A78 /* ChatDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDisplayViewController.h; sourceTree = "<group>"; };
 		2BEDE3FB19BC62FF00768A78 /* ChatDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDisplayViewController.m; sourceTree = "<group>"; };
+		2BEDE40419BC658C00768A78 /* ExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionView.h; sourceTree = "<group>"; };
+		2BEDE40519BC658C00768A78 /* ExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionView.m; sourceTree = "<group>"; };
+		2BEDE40719BC658C00768A78 /* InputToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputToolView.h; sourceTree = "<group>"; };
+		2BEDE40819BC658C00768A78 /* InputToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputToolView.m; sourceTree = "<group>"; };
+		2BEDE40A19BC658C00768A78 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		2BEDE40B19BC658C00768A78 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		2BEDE40F19BC65D300768A78 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		2BEDE41019BC65D300768A78 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +357,8 @@
 		2B957D4219BBF93F00E82597 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				2BEDE40F19BC65D300768A78 /* ChatModel.h */,
+				2BEDE41019BC65D300768A78 /* ChatModel.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -355,8 +366,9 @@
 		2B957D4319BBF93F00E82597 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				2BEDE3F719BC62C500768A78 /* ExpressionView.h */,
-				2BEDE3F819BC62C500768A78 /* ExpressionView.m */,
+				2BEDE40319BC658C00768A78 /* expression */,
+				2BEDE40619BC658C00768A78 /* inputBox */,
+				2BEDE40919BC658C00768A78 /* share */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -504,6 +516,33 @@
 				2B957E0619BC2AA900E82597 /* NSDictionary+Expression.m */,
 			);
 			path = manager;
+			sourceTree = "<group>";
+		};
+		2BEDE40319BC658C00768A78 /* expression */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDE40419BC658C00768A78 /* ExpressionView.h */,
+				2BEDE40519BC658C00768A78 /* ExpressionView.m */,
+			);
+			path = expression;
+			sourceTree = "<group>";
+		};
+		2BEDE40619BC658C00768A78 /* inputBox */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDE40719BC658C00768A78 /* InputToolView.h */,
+				2BEDE40819BC658C00768A78 /* InputToolView.m */,
+			);
+			path = inputBox;
+			sourceTree = "<group>";
+		};
+		2BEDE40919BC658C00768A78 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDE40A19BC658C00768A78 /* ShareView.h */,
+				2BEDE40B19BC658C00768A78 /* ShareView.m */,
+			);
+			path = share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -690,11 +729,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BEDE3F919BC62C500768A78 /* ExpressionView.m in Sources */,
+				2BEDE40C19BC658C00768A78 /* ExpressionView.m in Sources */,
+				2BEDE40D19BC658C00768A78 /* InputToolView.m in Sources */,
 				2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */,
 				2B957D2019BBEFB600E82597 /* AppDelegate.m in Sources */,
+				2BEDE40E19BC658C00768A78 /* ShareView.m in Sources */,
 				2B957D1C19BBEFB600E82597 /* main.m in Sources */,
 				2B957E0719BC2AA900E82597 /* NSDictionary+Expression.m in Sources */,
+				2BEDE41119BC65D300768A78 /* ChatModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
