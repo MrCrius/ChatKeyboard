@@ -19,7 +19,6 @@
 		2B957D2B19BBEFB600E82597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B957D1319BBEFB600E82597 /* UIKit.framework */; };
 		2B957D3319BBEFB600E82597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B957D3119BBEFB600E82597 /* InfoPlist.strings */; };
 		2B957D3519BBEFB600E82597 /* ChatKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B957D3419BBEFB600E82597 /* ChatKeyboardTests.m */; };
-		2B957D4619BBF97D00E82597 /* ChatDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B957D4519BBF97D00E82597 /* ChatDisplayViewController.m */; };
 		2B957D8819BBFB4200E82597 /* DeleteEmoticonBtn_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B957D4919BBFB4200E82597 /* DeleteEmoticonBtn_ios7@2x.png */; };
 		2B957D8919BBFB4200E82597 /* EmoticonBigTipsRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B957D4A19BBFB4200E82597 /* EmoticonBigTipsRight@2x.png */; };
 		2B957D8B19BBFB4200E82597 /* Expression_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B957D4C19BBFB4200E82597 /* Expression_10@2x.png */; };
@@ -110,6 +109,8 @@
 		2B957DFE19BBFBFC00E82597 /* SenderVoiceNodePlaying_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B957DE419BBFBFC00E82597 /* SenderVoiceNodePlaying_ios7@2x.png */; };
 		2B957E0419BBFE9C00E82597 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B957E0319BBFE9C00E82597 /* expression.plist */; };
 		2B957E0719BC2AA900E82597 /* NSDictionary+Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B957E0619BC2AA900E82597 /* NSDictionary+Expression.m */; };
+		2BEDE3F919BC62C500768A78 /* ExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE3F819BC62C500768A78 /* ExpressionView.m */; };
+		2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE3FB19BC62FF00768A78 /* ChatDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,8 +140,6 @@
 		2B957D3019BBEFB600E82597 /* ChatKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatKeyboardTests-Info.plist"; sourceTree = "<group>"; };
 		2B957D3219BBEFB600E82597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B957D3419BBEFB600E82597 /* ChatKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatKeyboardTests.m; sourceTree = "<group>"; };
-		2B957D4419BBF97D00E82597 /* ChatDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDisplayViewController.h; sourceTree = "<group>"; };
-		2B957D4519BBF97D00E82597 /* ChatDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDisplayViewController.m; sourceTree = "<group>"; };
 		2B957D4919BBFB4200E82597 /* DeleteEmoticonBtn_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteEmoticonBtn_ios7@2x.png"; sourceTree = "<group>"; };
 		2B957D4A19BBFB4200E82597 /* EmoticonBigTipsRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EmoticonBigTipsRight@2x.png"; sourceTree = "<group>"; };
 		2B957D4C19BBFB4200E82597 /* Expression_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expression_10@2x.png"; sourceTree = "<group>"; };
@@ -232,6 +231,10 @@
 		2B957E0319BBFE9C00E82597 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
 		2B957E0519BC2AA900E82597 /* NSDictionary+Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Expression.h"; sourceTree = "<group>"; };
 		2B957E0619BC2AA900E82597 /* NSDictionary+Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Expression.m"; sourceTree = "<group>"; };
+		2BEDE3F719BC62C500768A78 /* ExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionView.h; sourceTree = "<group>"; };
+		2BEDE3F819BC62C500768A78 /* ExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionView.m; sourceTree = "<group>"; };
+		2BEDE3FA19BC62FF00768A78 /* ChatDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDisplayViewController.h; sourceTree = "<group>"; };
+		2BEDE3FB19BC62FF00768A78 /* ChatDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,8 +301,6 @@
 				2B957D4319BBF93F00E82597 /* views */,
 				2B957D1E19BBEFB600E82597 /* AppDelegate.h */,
 				2B957D1F19BBEFB600E82597 /* AppDelegate.m */,
-				2B957D4419BBF97D00E82597 /* ChatDisplayViewController.h */,
-				2B957D4519BBF97D00E82597 /* ChatDisplayViewController.m */,
 				2B957D2119BBEFB600E82597 /* Images.xcassets */,
 				2B957D1619BBEFB600E82597 /* Supporting Files */,
 			);
@@ -338,6 +339,8 @@
 		2B957D4119BBF93F00E82597 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2BEDE3FA19BC62FF00768A78 /* ChatDisplayViewController.h */,
+				2BEDE3FB19BC62FF00768A78 /* ChatDisplayViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -352,6 +355,8 @@
 		2B957D4319BBF93F00E82597 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				2BEDE3F719BC62C500768A78 /* ExpressionView.h */,
+				2BEDE3F819BC62C500768A78 /* ExpressionView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -685,7 +690,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B957D4619BBF97D00E82597 /* ChatDisplayViewController.m in Sources */,
+				2BEDE3F919BC62C500768A78 /* ExpressionView.m in Sources */,
+				2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */,
 				2B957D2019BBEFB600E82597 /* AppDelegate.m in Sources */,
 				2B957D1C19BBEFB600E82597 /* main.m in Sources */,
 				2B957E0719BC2AA900E82597 /* NSDictionary+Expression.m in Sources */,
@@ -885,6 +891,7 @@
 				2B957D3A19BBEFB600E82597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B957D3B19BBEFB600E82597 /* Build configuration list for PBXNativeTarget "ChatKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -893,6 +900,7 @@
 				2B957D3D19BBEFB600E82597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
