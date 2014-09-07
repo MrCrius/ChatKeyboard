@@ -114,6 +114,7 @@
 		2BEDE40D19BC658C00768A78 /* InputToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE40819BC658C00768A78 /* InputToolView.m */; };
 		2BEDE40E19BC658C00768A78 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE40B19BC658C00768A78 /* ShareView.m */; };
 		2BEDE41119BC65D300768A78 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE41019BC65D300768A78 /* ChatModel.m */; };
+		2BEDE41419BC675500768A78 /* InputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDE41319BC675500768A78 /* InputTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +245,8 @@
 		2BEDE40B19BC658C00768A78 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
 		2BEDE40F19BC65D300768A78 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		2BEDE41019BC65D300768A78 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		2BEDE41219BC675500768A78 /* InputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTextView.h; sourceTree = "<group>"; };
+		2BEDE41319BC675500768A78 /* InputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +535,8 @@
 			children = (
 				2BEDE40719BC658C00768A78 /* InputToolView.h */,
 				2BEDE40819BC658C00768A78 /* InputToolView.m */,
+				2BEDE41219BC675500768A78 /* InputTextView.h */,
+				2BEDE41319BC675500768A78 /* InputTextView.m */,
 			);
 			path = inputBox;
 			sourceTree = "<group>";
@@ -731,6 +736,7 @@
 			files = (
 				2BEDE40C19BC658C00768A78 /* ExpressionView.m in Sources */,
 				2BEDE40D19BC658C00768A78 /* InputToolView.m in Sources */,
+				2BEDE41419BC675500768A78 /* InputTextView.m in Sources */,
 				2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */,
 				2B957D2019BBEFB600E82597 /* AppDelegate.m in Sources */,
 				2BEDE40E19BC658C00768A78 /* ShareView.m in Sources */,
