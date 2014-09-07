@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>57DBE345-4C90-416E-BB67-D568985B090B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatKeyboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9C208371-3F1F-4FBC-8A43-580CF3964827</key>
+		<string>https://github.com/crius2ZB/ChatKeyboard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatKeyboard/ChatKeyboard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9C208371-3F1F-4FBC-8A43-580CF3964827</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/crius2ZB/ChatKeyboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9C208371-3F1F-4FBC-8A43-580CF3964827</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C208371-3F1F-4FBC-8A43-580CF3964827</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChatKeyboard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
