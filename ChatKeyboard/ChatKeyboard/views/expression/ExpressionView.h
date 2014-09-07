@@ -10,4 +10,12 @@
 
 @interface ExpressionView : UIView
 
+- (id)initWithFrame:(CGRect)frame withCurrentPage:(NSInteger )page;
+
+
+/**
+ * 页位置
+ */
+@property (nonatomic,assign)NSInteger currentPage;
+
 @end
