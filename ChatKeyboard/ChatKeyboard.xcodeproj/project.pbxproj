@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0912D119BD400200384036 /* ExpressionMoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0912D019BD400200384036 /* ExpressionMoreBar.m */; };
+		2B0912D619BD427C00384036 /* ChatExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0912D519BD427C00384036 /* ChatExpressionView.m */; };
+		2B0912D919BD474C00384036 /* ShareMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0912D819BD474C00384036 /* ShareMenuItem.m */; };
 		2B957D1019BBEFB600E82597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B957D0F19BBEFB600E82597 /* Foundation.framework */; };
 		2B957D1219BBEFB600E82597 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B957D1119BBEFB600E82597 /* CoreGraphics.framework */; };
 		2B957D1419BBEFB600E82597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B957D1319BBEFB600E82597 /* UIKit.framework */; };
@@ -127,6 +130,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0912CF19BD400200384036 /* ExpressionMoreBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionMoreBar.h; sourceTree = "<group>"; };
+		2B0912D019BD400200384036 /* ExpressionMoreBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionMoreBar.m; sourceTree = "<group>"; };
+		2B0912D319BD415300384036 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		2B0912D419BD427C00384036 /* ChatExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatExpressionView.h; sourceTree = "<group>"; };
+		2B0912D519BD427C00384036 /* ChatExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatExpressionView.m; sourceTree = "<group>"; };
+		2B0912D719BD474C00384036 /* ShareMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareMenuItem.h; sourceTree = "<group>"; };
+		2B0912D819BD474C00384036 /* ShareMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareMenuItem.m; sourceTree = "<group>"; };
 		2B957D0C19BBEFB600E82597 /* ChatKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B957D0F19BBEFB600E82597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B957D1119BBEFB600E82597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -271,6 +281,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0912D219BD410500384036 /* untity */ = {
+			isa = PBXGroup;
+			children = (
+				2B0912D319BD415300384036 /* Constant.h */,
+			);
+			path = untity;
+			sourceTree = "<group>";
+		};
 		2B957D0319BBEFB500E82597 = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +322,7 @@
 		2B957D1519BBEFB600E82597 /* ChatKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				2B0912D219BD410500384036 /* untity */,
 				2B957DFF19BBFD5D00E82597 /* manager */,
 				2B957D4719BBFA7100E82597 /* resources */,
 				2B957D4119BBF93F00E82597 /* controllers */,
@@ -523,6 +542,10 @@
 			children = (
 				2BEDE40419BC658C00768A78 /* ExpressionView.h */,
 				2BEDE40519BC658C00768A78 /* ExpressionView.m */,
+				2B0912CF19BD400200384036 /* ExpressionMoreBar.h */,
+				2B0912D019BD400200384036 /* ExpressionMoreBar.m */,
+				2B0912D419BD427C00384036 /* ChatExpressionView.h */,
+				2B0912D519BD427C00384036 /* ChatExpressionView.m */,
 			);
 			path = expression;
 			sourceTree = "<group>";
@@ -543,6 +566,8 @@
 			children = (
 				2BEDE40A19BC658C00768A78 /* ShareView.h */,
 				2BEDE40B19BC658C00768A78 /* ShareView.m */,
+				2B0912D719BD474C00384036 /* ShareMenuItem.h */,
+				2B0912D819BD474C00384036 /* ShareMenuItem.m */,
 			);
 			path = share;
 			sourceTree = "<group>";
@@ -730,9 +755,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0912D119BD400200384036 /* ExpressionMoreBar.m in Sources */,
 				2BEDE40C19BC658C00768A78 /* ExpressionView.m in Sources */,
 				2BEDE40D19BC658C00768A78 /* InputToolView.m in Sources */,
+				2B0912D619BD427C00384036 /* ChatExpressionView.m in Sources */,
 				2BEDE41419BC675500768A78 /* InputTextView.m in Sources */,
+				2B0912D919BD474C00384036 /* ShareMenuItem.m in Sources */,
 				2BEDE3FC19BC62FF00768A78 /* ChatDisplayViewController.m in Sources */,
 				2B957D2019BBEFB600E82597 /* AppDelegate.m in Sources */,
 				2BEDE40E19BC658C00768A78 /* ShareView.m in Sources */,

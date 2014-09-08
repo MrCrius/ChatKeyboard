@@ -12,7 +12,6 @@
 
 - (id)initWithFrame:(CGRect)frame withCurrentPage:(NSInteger )page;
 
-
 /**
  * 页位置
  */

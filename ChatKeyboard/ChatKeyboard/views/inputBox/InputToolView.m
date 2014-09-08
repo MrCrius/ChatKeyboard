@@ -75,6 +75,8 @@
     _inputView.delegate = self;
     [self addSubview:_inputView];
     _inputView.layer.cornerRadius = 5.0f;
+    _inputView.layer.borderWidth = 1.0f;
+    _inputView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     
      _faceBtn = [self customButtonWithBackGroundImage:[UIImage imageNamed:@"ToolViewEmotion_ios7"]];
     [self addSubview:_faceBtn];

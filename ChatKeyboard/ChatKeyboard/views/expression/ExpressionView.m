@@ -8,6 +8,9 @@
 
 #import "ExpressionView.h"
 
+//表示点击删除按钮~~~~~~~
+static const int deleTag = 0;
+
 @interface ExpressionView()
 
 @property (nonatomic,strong)NSMutableArray *expressions;
@@ -26,9 +29,41 @@
     return self;
 }
 
-- (void)layoutSubviews{
-    
+- (void)dealloc{
+    _expressions = nil;
+}
 
+- (void)layoutSubviews{
+
+    //右边间隔
+    CGFloat edgeRight = 20.0f;
+    //左边间隔
+    CGFloat edgeLeft  = 20.0f;
+    // 上边间隔
+    CGFloat edgeTop = 5.0f;
+    // 下边间隔
+    CGFloat edgeBottom = 5.0f;
+    // 表情size
+    CGSize  expressionSize = CGSizeMake(24.0f, 24.0f);
+    // 每行含有表情个数
+    NSInteger verticalQuantity = 7;
+    // 行数
+    NSInteger horizontalQuantity = 3;
+    // 水平间距
+    CGFloat horizontalInterval = (CGRectGetWidth(self.bounds)-verticalQuantity*expressionSize.width -edgeLeft -edgeRight)/(verticalQuantity-1);
+    // 上下间距
+    CGFloat verticalInterval = (CGRectGetHeight(self.bounds)-edgeTop-edgeBottom -horizontalQuantity *expressionSize.height)/(horizontalQuantity-1);
+    
+    NSLog(@"%d-----",_expressions.count);
+    
+    for (int i = 0; i<_expressions.count ; i++) {
+        NSMutableArray *perLine = _expressions[i];
+        
+        for (int j = 0 ;j<perLine.count; j++) {
+            UIButton *expressionBtn = perLine[j];
+            [expressionBtn setFrame:CGRectMake(j*expressionSize.width+edgeRight+j*horizontalInterval,i*expressionSize.height +i*verticalInterval+edgeTop,expressionSize.width,expressionSize.height)];
+        }
+    }
 }
 
 - (void)setup{
@@ -47,7 +82,7 @@
                 
                 [expressionBtn setBackgroundImage:[UIImage imageNamed:@"DeleteEmoticonBtn_ios7@2x.png"]
                                             forState:UIControlStateNormal];
-                expressionBtn.tag = 0;
+                expressionBtn.tag = deleTag;
                 
             }else{
                 

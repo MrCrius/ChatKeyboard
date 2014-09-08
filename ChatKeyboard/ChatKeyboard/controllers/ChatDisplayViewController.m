@@ -8,6 +8,7 @@
 
 #import "ChatDisplayViewController.h"
 #import "InputToolView.h"
+#import "ExpressionView.h"
 
 @interface ChatDisplayViewController ()
 
@@ -30,6 +31,9 @@
     
     InputToolView *view = [[InputToolView alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.frame)-50.0f, 320, 50)];
     [self.view addSubview:view];
+    
+    ExpressionView *view1 = [[ExpressionView alloc]initWithFrame:CGRectMake(0, 100, 320, 218) withCurrentPage:1];
+    [self.view addSubview:view1];
     
     
 }

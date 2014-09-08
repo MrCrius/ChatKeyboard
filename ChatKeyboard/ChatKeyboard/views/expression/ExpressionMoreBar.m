@@ -1,31 +1,21 @@
 //
-//  ShareView.m
+//  ExpressionMoreBar.m
 //  ChatKeyboard
 //
-//  Created by 周彬 on 14-9-7.
+//  Created by 周彬 on 14-9-8.
 //  Copyright (c) 2014年 zhoubin. All rights reserved.
 //
 
-#import "ShareView.h"
+#import "ExpressionMoreBar.h"
+#import "Constant.h"
 
-@interface ShareView ()
-
-@property (nonatomic,assign)NSInteger numberOfItems;
-
-
-@end
-
-@implementation ShareView
+@implementation ExpressionMoreBar
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
-        if ([self.dataSource respondsToSelector:@selector(numberOfItem)]) {
-            _numberOfItems = [self.dataSource numberOfItem];
-        }
-        
+        self.backgroundColor = RGBCOLOR(255,250,240);
     }
     return self;
 }
