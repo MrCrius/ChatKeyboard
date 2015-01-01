@@ -10,29 +10,29 @@
 	<string>ChatKeyboard</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9C208371-3F1F-4FBC-8A43-580CF3964827</key>
+		<key>527957B0AF5A343D8412ED8CE2752743F17C6CDA</key>
 		<string>https://github.com/crius2ZB/ChatKeyboard.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ChatKeyboard/ChatKeyboard.xcodeproj/project.xcworkspace</string>
+	<string>ChatKeyboard/ChatKeyboard.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9C208371-3F1F-4FBC-8A43-580CF3964827</key>
+		<key>527957B0AF5A343D8412ED8CE2752743F17C6CDA</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/crius2ZB/ChatKeyboard.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9C208371-3F1F-4FBC-8A43-580CF3964827</string>
+	<string>527957B0AF5A343D8412ED8CE2752743F17C6CDA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9C208371-3F1F-4FBC-8A43-580CF3964827</string>
+			<string>527957B0AF5A343D8412ED8CE2752743F17C6CDA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ChatKeyboard</string>
 		</dict>

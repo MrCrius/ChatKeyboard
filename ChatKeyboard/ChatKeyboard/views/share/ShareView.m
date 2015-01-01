@@ -12,23 +12,20 @@
 
 @property (nonatomic,assign)NSInteger numberOfItems;
 
-
 @end
 
 @implementation ShareView
 
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
-        
         if ([self.dataSource respondsToSelector:@selector(numberOfItem)]) {
             _numberOfItems = [self.dataSource numberOfItem];
         }
-        
     }
     return self;
 }
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

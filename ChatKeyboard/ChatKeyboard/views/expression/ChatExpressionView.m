@@ -57,8 +57,7 @@
     
 }
 
--(void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     int page = scrollView.contentOffset.x/320;
     _pageControl.currentPage = page;
 }

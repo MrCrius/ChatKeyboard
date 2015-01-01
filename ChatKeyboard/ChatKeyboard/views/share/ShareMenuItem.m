@@ -12,7 +12,7 @@
 
 - (instancetype)initWithNormalIconImage:(UIImage *)normalIconImage
                                   title:(NSString *)title{
-    if (self) {
+    if (self){
         self.normalIconImage = normalIconImage;
         self.title = title;
     }

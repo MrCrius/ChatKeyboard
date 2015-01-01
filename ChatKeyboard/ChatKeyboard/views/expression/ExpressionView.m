@@ -54,8 +54,6 @@ static const int deleTag = 0;
     // 上下间距
     CGFloat verticalInterval = (CGRectGetHeight(self.bounds)-edgeTop-edgeBottom -horizontalQuantity *expressionSize.height)/(horizontalQuantity-1);
     
-    NSLog(@"%d-----",_expressions.count);
-    
     for (int i = 0; i<_expressions.count ; i++) {
         NSMutableArray *perLine = _expressions[i];
         
@@ -79,14 +77,13 @@ static const int deleTag = 0;
             [self addSubview:expressionBtn];
             
             if (horizontal*7+vertical+1 ==21) {
-                
                 [expressionBtn setBackgroundImage:[UIImage imageNamed:@"DeleteEmoticonBtn_ios7@2x.png"]
                                             forState:UIControlStateNormal];
                 expressionBtn.tag = deleTag;
                 
             }else{
                 
-                NSString *imageStr = [NSString stringWithFormat:@"Expression_%d@2x.png",_currentPage*20+horizontal*7+vertical+1];
+                NSString *imageStr = [NSString stringWithFormat:@"Expression_%ld@2x.png",_currentPage*20+horizontal*7+vertical+1];
                 [expressionBtn setBackgroundImage:[UIImage imageNamed:imageStr]
                                             forState:UIControlStateNormal];
                 expressionBtn.tag = _currentPage*20+horizontal*7+vertical+1;
